@@ -2,10 +2,14 @@
 	"version": 3,
 	"file": "index.css",
 	"sources": [
-		"../../scss/utilities/index.scss"
+		"../../scss/utilities/index.scss",
+		"../../scss/utilities/_mixins.scss",
+		"../../scss/utilities/_variables.scss"
 	],
 	"sourcesContent": [
-		""
+		"// Import\r\n\r\n@import 'mixins',\r\n        'variables';",
+		"",
+		"// Colors \r\n\r\n$color-primary:#58e1c1;\r\n$color-secondary:#777;\r\n$color-link:#51ddfc;\r\n$color-error:#e4757a;\r\n$color-info:#927bc1;\r\n$color-success:#63cc82;\r\n$color-warning:#fd7856;\r\n\r\n// Media Q\r\n\r\n$min-width: 768px;"
 	],
 	"names": [],
 	"mappings": ""
