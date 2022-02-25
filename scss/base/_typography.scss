@@ -1,13 +1,17 @@
 // Font 
-
 * {
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
-  }
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
 
 a {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
 .headline-primary {
     color: #58e1c1;
