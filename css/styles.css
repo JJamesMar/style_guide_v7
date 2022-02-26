@@ -9,27 +9,32 @@
   border-radius: 5px;
 }
 
-/* line 13, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 11, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+.btn:hover {
+  color: white;
+}
+
+/* line 16, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 17, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 20, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 21, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 24, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 25, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 28, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 29, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 32, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
 }
