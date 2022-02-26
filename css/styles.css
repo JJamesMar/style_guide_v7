@@ -9,14 +9,14 @@
   border-radius: 5px;
 }
 
-/* line 11, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
-.btn:hover {
-  color: white;
-}
-
-/* line 16, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 13, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
+}
+
+/* line 15, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+.default:hover {
+  background-color: #9cecfd;
 }
 
 /* line 20, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
@@ -24,19 +24,39 @@
   background-color: #e4757a;
 }
 
-/* line 24, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 22, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+.error:hover {
+  background-color: #f1b5b8;
+}
+
+/* line 27, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 28, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 29, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 34, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 32, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+/* line 36, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 41, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 43, ../Coding Projects/style_guide_v7/scss/component/_button.scss */
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* line 3, ../Coding Projects/style_guide_v7/scss/component/_form.scss */
