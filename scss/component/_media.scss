@@ -1,6 +1,6 @@
 // Media Q
 
-@media (min-width: 768px) {
+@media (min-width: $break-med) {
 
     .container {
       max-width: 1400px;
